@@ -10,5 +10,6 @@ def cpu_bound_func(number: int):
 
 
 if __name__ == "__main__":
-    result = cpu_bound_func(50)
+
+    result = cpu_bound_func(10)
     print(result)
