@@ -13,3 +13,6 @@ if __name__ == "__main__":
 
     result = cpu_bound_func(10)
     print(result)
+
+
+## 변경 작업 commit test를 위함
