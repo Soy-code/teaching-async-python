@@ -3,6 +3,9 @@ import time
 import asyncio
 import os
 import threading
+import warnings
+
+warnings.filterwarnings("ignore")
 
 
 async def fetcher(session, url):
