@@ -19,7 +19,7 @@ async def main():
 
     async with aiohttp.ClientSession() as session:
         result = await asyncio.gather(*[fetcher(session, url) for url in urls])
-        print(result)
+        # print(result)
 
 
 if __name__ == "__main__":
