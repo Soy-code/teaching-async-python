@@ -8,7 +8,8 @@
 
 from bs4 import BeautifulSoup
 
-
+# html을 아래와 같이 가져올 것임
+# 아래는 예시
 html_doc = """
 <html><head><title>The Dormouse's story</title></head>
 <body>
@@ -25,10 +26,18 @@ and they lived at the bottom of a well.</p>
 
 soup = BeautifulSoup(html_doc, "html.parser")
 
+print("PRETTIFY:::")
 print(soup.prettify())
 
+print("TITLE:::")
 print(soup.title)
 
+# p tag
+print("P:::")
 print(soup.p)
 
+print("FIND P AND TITLE:::")
 print(soup.find("p", "title"))
+
+print("FIND P AND STORY:::")
+print(soup.find("p", "story"))
