@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Optional
 
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent  # 해당하는 폴더의 root경로에서
 
 
 def get_secret(
