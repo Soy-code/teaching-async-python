@@ -1,0 +1,6 @@
+PyMuPDF
+pdfminer.six
+easyocr @ file:///C:/Users/thdus/Downloads/easyocr-1.7.2-py3-none-any.whl
+opencv-python
+torchvision
+torch
